@@ -57,7 +57,6 @@ public class b6 {
         } else {
             boolean flag = true;
             for(int i = 2; i <= Math.floor(Math.sqrt(number)); i++){
-//                chỉ cần có một số là chia hết thì đảo cờ sang false và phá vòng lặp
                 if((number % i) == 0){
                     flag = false;
                     break;

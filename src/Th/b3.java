@@ -19,7 +19,6 @@ public class b3 {
         if (n < 2) {
             return false;
         }
-        // check so nguyen to khi n >= 2
         int check = (int) Math.sqrt(n);
         for (int i = 2; i <= check; i++) {
             if (n % i == 0) {

@@ -1,5 +1,4 @@
 package Th;
-
 import java.util.Scanner;
 
 public class b4 {
@@ -8,8 +7,8 @@ public class b4 {
         System.out.print("Nhập n = ");
         int n = sc.nextInt();
         System.out.printf("%d số nguyên tố đầu tiên là: \n", n);
-        int cout = 0; // đếm số số nguyên tố
-        int i = 2;   // tìm số nguyên tố bắt dầu từ số 2
+        int cout = 0;
+        int i = 2;
         while (cout < n) {
             if (isPrimeNumber(i)) {
                 System.out.print(i + " ");
@@ -19,7 +18,6 @@ public class b4 {
         }
     }
     public static boolean isPrimeNumber(int n) {
-        // so nguyen n < 2 khong phai la so nguyen to
         if (n < 2) {
             return false;
         }
